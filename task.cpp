@@ -128,7 +128,7 @@ int main() {
     c3.addTerritory(50000);
     std::cout << "Новая площадь: " << c3.getArea() << " кв.км" << std::endl;
 
-    std::cout << "\n---\n";
+    std::cout << "\n-------------\n";
 
     // +населения
     std::cout << "Рост населения на 1%:" << std::endl;
@@ -136,4 +136,5 @@ int main() {
     std:: cout << "Новое население: " << c3.getPopulation() << " чел." << std::endl;
 
     return 0;
+
 }
